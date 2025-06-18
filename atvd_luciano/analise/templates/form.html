@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Dados</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      margin-top: 15px;
+      color: #444;
+    }
+
+    input[type="number"],
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Informe os Dados</h1>
+    <form method="POST">
+      <label>Idade:</label>
+      <input type="number" name="Idade" />
+
+      <label>Anos Fumando:</label>
+      <input type="number" name="Anos_Fumando" />
+
+      <label>Cigarros por Dia:</label>
+      <input type="number" name="Cigarros_por_Dia" />
+
+      <label>IMC:</label>
+      <input type="number" step="0.1" name="IMC" />
+
+      <label>Ano Diagnóstico:</label>
+      <input type="number" name="Ano_Diagnóstico" />
+
+      <label>Gênero (Masculino/Feminino):</label>
+      <input type="text" name="Gênero" />
+
+      <label>Status Tabagismo (Atual/Nunca/Outro):</label>
+      <input type="text" name="Status_Tabagismo" />
+
+      <label>Exposição Fumaça Secundária (Baixo/Médio/Outro):</label>
+      <input type="text" name="Exposição_Fumaça_Secundária" />
+
+      <label>Exposição Ocupacional (Fumaça Diesel/Sílica/Outro):</label>
+      <input type="text" name="Exposição_Ocupacional" />
+
+      <label>Nível Poluição do Ar (Baixo/Moderado/Outro):</label>
+      <input type="text" name="Nível_Poluição_do_Ar" />
+
+      <label>Histórico Familiar (Sim/Não):</label>
+      <input type="text" name="Histórico_Familiar" />
+
+      <label>Marcas Genéticas Positivas (Sim/Não):</label>
+      <input type="text" name="Marcas_Geneticas_Positivas" />
+
+      <label>Nível Atividade Física (Low/Moderate/Outro):</label>
+      <input type="text" name="Nível_Atividade_Física" />
+
+      <label>Consumo de Álcool (Moderate/Outro):</label>
+      <input type="text" name="Alcohol_Consumption" />
+
+      <label>Qualidade da Dieta (Mediana/Pobre/Outro):</label>
+      <input type="text" name="Qualidade_da_Dieta" />
+
+      <label>Região (Norte/Oeste/Sul/Outro):</label>
+      <input type="text" name="Região" />
+
+      <label>Nível de Renda (Baixa/Média/Outro):</label>
+      <input type="text" name="Nível_de_Renda" />
+
+      <label>Nível de Escolaridade (Secundário/Terciário/Outro):</label>
+      <input type="text" name="Nível_de_Escolaridade" />
+
+      <label>Acesso à Saúde (Mediana/Pobre/Outro):</label>
+      <input type="text" name="Acesso_a_Saúde" />
+
+      <label>Frequência de Rastreamento (Ocasionalmente/Regularmente/Outro):</label>
+      <input type="text" name="Frequência_de_Rastreamento" />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
